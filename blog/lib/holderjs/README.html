@@ -1,0 +1,94 @@
+<h1>Holder</h1>
+<p><img src="http://imsky.github.io/holder/images/header.png" alt=""></p>
+<p>Holder uses SVG and <code>canvas</code> to render image placeholders on the client side.</p>
+<p><a href="http://getbootstrap.com">Bootstrap</a> uses Holder for thumbnails.</p>
+<p>You can install Holder using <a href="http://bower.io/">Bower</a>: <code>bower install holderjs</code></p>
+<h2>How to use it</h2>
+<p>Include <code>holder.js</code> in your HTML:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"holder.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<p>Holder will then process all images with a specific <code>src</code> attribute, like this one:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"holder.js/200x300"</span>&gt;</span></code></pre>
+<p>The above tag will render as a placeholder 200 pixels wide and 300 pixels tall.</p>
+<p>To avoid console 404 errors, you can use <code>data-src</code> instead of <code>src</code>.</p>
+<h2>Theming</h2>
+<p><img src="http://imsky.github.io/holder/images/holder_sky.png" alt=""><img src="http://imsky.github.io/holder/images/holder_vine.png" alt=""><img src="http://imsky.github.io/holder/images/holder_lava.png" alt=""></p>
+<p>Holder includes support for themes, to help placeholders blend in with your layout. </p>
+<p>There are 6 default themes: <code>sky</code>, <code>vine</code>, <code>lava</code>, <code>gray</code>, <code>industrial</code>, and <code>social</code>. Use them like so:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"holder.js/200x300/sky"</span>&gt;</span></code></pre>
+<h2>Customizing themes</h2>
+<p>Themes have 4 properties: <code>foreground</code>, <code>background</code>, <code>size</code>, and <code>font</code>. The <code>size</code> property specifies the minimum font size for the theme. You can create a sample theme like this:</p>
+<pre><code class="lang-js">Holder.add_theme(<span class="string">"dark"</span>, {background:<span class="string">"#000"</span>, foreground:<span class="string">"#aaa"</span>, size:<span class="number">11</span>, font: <span class="string">"Monaco"</span>})</code></pre>
+<h2>Using custom themes</h2>
+<p>There are two ways to use custom themes with Holder:</p>
+<ul>
+<li>Include theme at runtime to render placeholders already using the theme name</li>
+<li>Include theme at any point and re-render placeholders that are using the theme name</li>
+</ul>
+<p>The first approach is the easiest. After you include <code>holder.js</code>, add a <code>script</code> tag that adds the theme you want:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"holder.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+<span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"> Holder.add_theme(<span class="string">"bright"</span>, { background: <span class="string">"white"</span>, foreground: <span class="string">"gray"</span>, size: <span class="number">12</span> })</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
+<p>The second approach requires that you call <code>run</code> after you add the theme, like this:</p>
+<pre><code class="lang-js">Holder.add_theme(<span class="string">"bright"</span>, { background: <span class="string">"white"</span>, foreground: <span class="string">"gray"</span>, size: <span class="number">12</span>}).run()</code></pre>
+<h2>Using custom themes and domain on specific images</h2>
+<p>You can use Holder in different areas on different images with custom themes:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">data-src</span>=<span class="value">"example.com/100x100/simple"</span> <span class="attribute">id</span>=<span class="value">"new"</span>&gt;</span></code></pre>
+<pre><code class="lang-js">Holder.run({
+    domain: <span class="string">"example.com"</span>,
+    themes: {
+        <span class="string">"simple"</span>:{
+            background:<span class="string">"#fff"</span>,
+            foreground:<span class="string">"#000"</span>,
+            size:<span class="number">12</span>
+            }
+    },
+    images: <span class="string">"#new"</span>
+    })</code></pre>
+<h2>Using custom colors on specific images</h2>
+<p>Custom colors on a specific image can be specified in the <code>background:foreground</code> format using hex notation, like this:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">data-src</span>=<span class="value">"holder.js/100x200/#000:#fff"</span>&gt;</span></code></pre>
+<p>The above will render a placeholder with a black background and white text.</p>
+<h2>Custom text</h2>
+<p>You can specify custom text using the <code>text:</code> operator:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">data-src</span>=<span class="value">"holder.js/200x200/text:hello world"</span>&gt;</span></code></pre>
+<p>If you have a group of placeholders where you&#39;d like to use particular text, you can do so by adding a <code>text</code> property to the theme:</p>
+<pre><code class="lang-js">Holder.add_theme(<span class="string">"thumbnail"</span>, { background: <span class="string">"#fff"</span>, text: <span class="string">"Thumbnail"</span> })</code></pre>
+<h2>Fluid placeholders</h2>
+<p>Specifying a dimension in percentages creates a fluid placeholder that responds to media queries.</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">data-src</span>=<span class="value">"holder.js/100%x75/social"</span>&gt;</span></code></pre>
+<p>By default, the fluid placeholder will show its current size in pixels. To display the original dimensions, i.e. 100%x75, set the <code>textmode</code> flag to <code>literal</code> like so: <code>holder.js/100%x75/textmode:literal</code>.</p>
+<h2>Automatically sized placeholders</h2>
+<p>If you&#39;d like to avoid Holder enforcing an image size, use the <code>auto</code> flag like so:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">data-src</span>=<span class="value">"holder.js/200x200/auto"</span>&gt;</span></code></pre>
+<p>The above will render a placeholder without any embedded CSS for height or width.</p>
+<p>To show the current size of an automatically sized placeholder, set the <code>textmode</code> flag to <code>exact</code> like so: <code>holder.js/200x200/auto/textmode:exact</code>.</p>
+<h2>Background placeholders</h2>
+<p>Holder can render placeholders as background images for elements with the <code>holderjs</code> class, like this:</p>
+<pre><code class="lang-css"><span class="id">#sample</span> <span class="rules">{<span class="rule"><span class="attribute">background</span>:<span class="value"><span class="function">url(?holder.js/<span class="number">200</span>x200/social)</span> no-repeat}</span></span></span></code></pre>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"sample"</span> <span class="attribute">class</span>=<span class="value">"holderjs"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></code></pre>
+<p>The Holder URL in CSS should have a <code>?</code> in front. You can change the default class by specifying a selector as the <code>bgnodes</code> property when calling <code>Holder.run</code>.</p>
+<h2>Customizing only the settings you need</h2>
+<p>Holder extends its default settings with the settings you provide, so you only have to include those settings you want changed. For example, you can run Holder on a specific domain like this:</p>
+<pre><code class="lang-js">Holder.run({domain:<span class="string">"example.com"</span>})</code></pre>
+<h2>Using custom settings on load</h2>
+<p>You can prevent Holder from running its default configuration by executing <code>Holder.run</code> with your custom settings right after including <code>holder.js</code>. However, you&#39;ll have to execute <code>Holder.run</code> again to render any placeholders that use the default configuration.</p>
+<h2>Inserting an image with optional custom theme</h2>
+<p>You can add a placeholder programmatically by chaining Holder calls:</p>
+<pre><code class="lang-js">Holder.add_theme(<span class="string">"new"</span>,{foreground:<span class="string">"#ccc"</span>, background:<span class="string">"#000"</span>, size:<span class="number">10</span>}).add_image(<span class="string">"holder.js/200x100/new"</span>, <span class="string">"body"</span>).run()</code></pre>
+<p>The first argument in <code>add_image</code> is the <code>src</code> attribute, and the second is a CSS selector of the parent element.</p>
+<h2>Changing rendering engine</h2>
+<p>By default, Holder renders placeholders using SVG, however it has a fallback <code>canvas</code> engine that it uses in case the browser lacks SVG support. If you&#39;d like to force <code>canvas</code> rendering, you can do it like so:</p>
+<pre><code class="lang-js">Holder.run({use_canvas:<span class="literal">true</span>})</code></pre>
+<h2>Using with <code>lazyload.js</code></h2>
+<p>Holder is compatible with <code>lazyload.js</code> and works with both fluid and fixed-width images. For best results, run <code>.lazyload({skip_invisible:false})</code>.</p>
+<h2>Browser support</h2>
+<ul>
+<li>Chrome</li>
+<li>Firefox 3+</li>
+<li>Safari 4+</li>
+<li>Internet Explorer 6+ (with fallback for older IE)</li>
+<li>Android (with fallback)</li>
+</ul>
+<h2>License</h2>
+<p>Holder is provided under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+<h2>Credits</h2>
+<p>Holder is a project by <a href="http://imsky.co">Ivan Malopinsky</a>.</p>

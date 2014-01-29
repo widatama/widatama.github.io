@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Meanwhile]]></title>
+  <subtitle><![CDATA[Journal • Thoughts • Favourites]]></subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  <link href="http://widatama.github.io/"/>
+  <updated>2014-01-29T14:58:43.433Z</updated>
+  <id>http://widatama.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Danu Widatama]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Static Temptation]]></title>
+    <link href="http://widatama.github.io/the-static-temptation/"/>
+    <id>http://widatama.github.io/the-static-temptation/</id>
+    <published>2014-01-19T00:59:18.000Z</published>
+    <updated>2014-01-19T02:38:02.000Z</updated>
+    <content type="html"><![CDATA[<p>I have been exploring the options for making this whole site content static. The initial set up is quite a hassle but afterwards there are less things to take care of and less to worry about.</p>
+<p>So here it is, static contents made with <a href="http://zespia.tw/hexo" target="_blank">Hexo</a> and hosted on <a href="http://pages.github.com/" target="_blank">Github Pages</a>.</p>
+]]></content>
+    
+    
+      <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Making Sense of Things]]></title>
+    <link href="http://widatama.github.io/on-making-sense-of-things/"/>
+    <id>http://widatama.github.io/on-making-sense-of-things/</id>
+    <published>2013-09-13T18:09:41.000Z</published>
+    <updated>2014-01-12T14:08:21.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>People don&#8217;t want things to make sense, although they always say they do. Know why? Because if things made sense we&#8217;d all be in trouble. You drive too fast down the street because it feels good or because you&#8217;re in a hurry. Now if things made sense, a cop would stop you every single time and give you a ticket. Now what happens if a cop &#8216;does&#8217; stop you? You get angry and say that&#8217;s not fair! Of course it&#8217;s fair. It also makes sense. But if life made sense we&#8217;d either behave ourselves a hell of a lot better or we&#8217;d be walking around scared, waiting to be punished for all the bad things we do every day. We want life to make sense only when it&#8217;s to our &#8216;advantage.&#8217; Otherwise, it&#8217;s interesting not knowing what&#8217;s coming next. Maybe you&#8217;ll get heads, maybe tails. People do wrong things all the time and get away with them. Good people get their necks broken. Would you prefer it if only the good people got rewarded? How often are you good? How often do you deserve the good <em>you</em> get? Wouldn&#8217;t you rather have an interesting life than a fair one?</p>
+</blockquote>
+<div class="source"><a href="http://www.jonathancarroll.com/index.php" target="_blank">Jonathan Carroll</a>, author</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Lake Street Dive]]></title>
+    <link href="http://widatama.github.io/lake-street-dive/"/>
+    <id>http://widatama.github.io/lake-street-dive/</id>
+    <published>2013-07-28T09:30:03.000Z</published>
+    <updated>2014-01-18T23:30:44.000Z</updated>
+    <content type="html"><![CDATA[<p>What an amazing band. Great, solid music through and through.</p>
+<iframe src="http://www.youtube.com/embed/0LhsE-uqqE0" width="864" height="468" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    
+      <category term="Music" scheme="http://widatama.github.io/categories/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Small Gestures]]></title>
+    <link href="http://widatama.github.io/on-small-gestures/"/>
+    <id>http://widatama.github.io/on-small-gestures/</id>
+    <published>2013-05-22T06:59:20.000Z</published>
+    <updated>2014-01-07T16:36:19.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>I firmly believe in small gestures: pay for their coffee, hold the door for strangers, over tip, smile or try to be kind even when you don&#8217;t feel like it, pay compliments, chase the kid&#8217;s runaway ball down the sidewalk and throw it back to him, try to be larger than you are particularly when it&#8217;s difficult. People do notice, people appreciate. I appreciate it when it&#8217;s done to (for) me. Small gestures can be an effort, or actually go against our grain (&#8220;I&#8217;m not a big one for paying compliments&hellip;&#8221;), but the irony is that almost every time you make them, you feel better about yourself. For a moment life suddenly feels lighter, a bit more Gene Kelly dancing in the rain.</p>
+</blockquote>
+<div class="source"><a href="http://www.jonathancarroll.com/index.php" target="_blank">Jonathan Carroll</a>, author</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mr. Sonjaya]]></title>
+    <link href="http://widatama.github.io/mr-sonjaya/"/>
+    <id>http://widatama.github.io/mr-sonjaya/</id>
+    <published>2013-05-12T09:30:00.000Z</published>
+    <updated>2014-01-23T15:35:12.000Z</updated>
+    <content type="html"><![CDATA[<p>Definitely a gem.</p>
+<iframe width="864" height="468" src="//www.youtube.com/embed/j8A2QCJuFH4" frameborder="0" allowfullscreen></iframe>
+
+<p>Find more of them <a href="https://soundcloud.com/mrsonjaya" target="_blank">here</a>.</p>
+]]></content>
+    
+    
+      <category term="Music" scheme="http://widatama.github.io/categories/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Minimalism]]></title>
+    <link href="http://widatama.github.io/minimalism/"/>
+    <id>http://widatama.github.io/minimalism/</id>
+    <published>2013-03-03T02:56:47.000Z</published>
+    <updated>2014-01-25T15:54:01.000Z</updated>
+    <content type="html"><![CDATA[<p>I have been frequenting <a href="http:://www.reddit.com/r/minimalism">this subreddit</a> lately and I found it really fascinating. I did not know why but this idea of minimalism just felt profound. There was a certain sense of tranquility that I get by seeing all those posts (yes, those pictures of clean desks included).</p>
+<p>What I am really interested though is applying minimalism to our life. The idea is simply brilliant. Reduce everything to only what is necessary. This way, we can focus on the most important things and hence get the most out of our life.</p>
+]]></content>
+    
+    
+      <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Calvin and Hobbes]]></title>
+    <link href="http://widatama.github.io/calvin-and-hobbes/"/>
+    <id>http://widatama.github.io/calvin-and-hobbes/</id>
+    <published>2013-02-21T18:13:11.000Z</published>
+    <updated>2014-01-06T14:21:32.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://www.reddit.com/r/calvinandhobbes/comments/18pxhy/i_cant_believe_i_am_doing_this_but_what_exactly/c8gy9yp" target="_blank">This comment on reddit</a> sums up Calvin and Hobbes really well.</p>
+<blockquote>
+<p>I&#8217;ll tell you why. It&#8217;s because Watterson understood so much about the world. And not only was he able to understand so much, but he was able to present it in a way that made sense to everyone. He was teaching you, without you even noticing he was teaching you. And his medium for teaching was so incredibly brilliant and subtle, that I would bet most people didn&#8217;t appreciate how brilliant it was.</p>
+<p>It&#8217;s important to note that Hobbes is completely and entirely a figment of Calvin&#8217;s imagination. He wasn&#8217;t like, magically alive in this alternate fantasy universe; Calvin exists here, in the same world that you and I live in. Watterson didn&#8217;t treat this like any other &#8216;imaginary friend&#8217; relationship either, he used it as a way to illustrate the thought process that we go through without even noticing.</p>
+<p>When Calvin is speaking to Hobbes, he&#8217;s speaking to himself. When Hobbes responds to Calvin, it is Calvin thinking of ideas and being creative. Hobbes has his own personality and it is actually the personality of the inner-Calvin. And Watterson is incredibly consistent with this, he never deviates from this relationship. He never gives Hobbes ideas or responses that wouldn&#8217;t be natural for Calvin to make. A regular Calvin &amp; Hobbes discussion follows the same pattern as thought development in your own head.</p>
+<p>Calvin is an implementation of Bill Watterson himself, thinking of ideas and making reflections on the world, but Watterson used the medium of cartoons to write his ideas. He came up with an ingenious method for illustrating his own inner-self battling with the ideas that the world gives to him. For that, I would argue that Watterson is one of the greatest psychologists of all time. He not only understood how the brain and thought work, but he came up with a metaphor for the process that would allow him to literally illustrate his thoughts. And his thoughts make me jealous of how brilliant he is. You read his stuff, and he has ideas about everything, he is an artistic thinker. I think of Contact and the line &#8216;so beautiful&hellip; there are no words&hellip; they should&#8217;ve sent a poet&#8217;. Watterson is that poet. He is the man who is able to take thoughts that are difficult for people to describe, and put words/pictures to them. It&#8217;s much easier to illustrate inner-conflict and idea development if you have two characters acting out the two sides of an idea, as well as how ideas progress and come to be. Imagine Watterson was just like other philosophers/thinkers and wrote a big heavy book about what he thinks of life, politics, relationships, science, etc. No one would read that, but millions of people read his comics.</p>
+<p>I clued into all of this during my reading of the series, which I read all of in just a month back in the fall. I had never read them before, and I couldn&#8217;t stop. This concept that Watterson created was made apparent to me after reading a bunch of the &#8216;death by wagon ride&#8217; strips. In these strips (of which there are many), Calvin and Hobbes are riding through near death and neither of them are scared, excited, or otherwise phased at all. But, the entire ride, Calvin is making a monologue about some idea that just occurred to him. Hobbes, being Calvin&#8217;s inner-self, is completely unphased by the ride because he&#8217;s focusing on the ideas Calvin is creating. He should be flipping out and yelling at Calvin to slow down, but instead, he&#8217;s just patiently listening to what Calvin has to say. Just as our subconscious would.</p>
+<p>There are so many other great details about this relationship that Watterson makes. Such as Calvin leaving Hobbes at home whenever he goes to school. Along with the many comments Calvin makes about the poor quality of education he&#8217;s getting, he also leaves Hobbes, his intelligent and helpful side, at home. The American education is so factually based that he has no need to bring the part of his brain that helps form new ideas with him to school. There&#8217;s no need for Calvin to think critically, the school doesn&#8217;t demand it of him. But I guarantee that most readers noticed the difference between at-home Calvin and in-school Calvin. Outside school, he&#8217;s making dramatic and insightful ideas about life, science, politics, etc., but in school, it&#8217;s just snarky and sarcastic Calvin that just talks about how his education is failing him. And they probably wondered how Calvin can be so smart at home, but can&#8217;t do well in school. It&#8217;s because Calvin leaves his critically thinking brain at home.</p>
+<p>It&#8217;s also incredibly obvious with their handling of Susie, Calvin&#8217;s &#8216;love interest&#8217;. Calvin treats her like all prepubescent boys treat girls and their cooties. Hobbes, Calvin&#8217;s subconscious, is the only one that notices how nice, pretty, and awesome Susie is. When I was a kid, I was a shit to other girls, but I recognized in the back of my mind when I liked a girl. That&#8217;s my Hobbes, taunting me about how much I actually like her. Hobbes doesn&#8217;t just happen to like Susie and think she&#8217;s cute when Calvin is a bitch to her, the two go hand in hand.</p>
+<p>Hobbes will often act as the moral, safe, and responsible side of Calvin too. All of us have a subconscious telling us when something looks dangerous as fuck, or would result in other people getting hurt, some people just don&#8217;t listen to it.</p>
+<p>There are also two other important components of C&amp;H&#8217;s world-wide love, both are much, much easier to notice. First is Watterson&#8217;s treatment of IP and respect for his fans as well as the integrity of his creation. He wrote these strips everyday for ten years, and when he thought he was getting close to repeating ideas or using ideas of lesser quality, he stopped writing. He didn&#8217;t dilute his creation, he kept it A-list, which is how it will always be remembered. And the other point, is that they were relatable, which is even more mind-bogglingly genius. Watterson managed to create a metaphor for human thought that can be related to everyone&#8217;s childhood? Goddammit, how!?! Everyone remembers not wanting to wake up for school. Everyone remembers wishing for snow days. Everyone remembers having bad days and wanting to kill everyone. Everyone remembers going places and doing things that they didn&#8217;t want to do. Everyone remembers questioning the stupid rules and seemingly ambiguous regulations that our parents gave us. All of us relate to Calvin, and by extension, Watterson.</p>
+<p>Everything went right with Calvin and Hobbes; the art, the flow, the topics, the humor, everything. It was one of those one in a million gems that you see just a couple of times in your life. Nothing is perfect, but Calvin and Hobbes was as close to perfect as I can imagine.</p>
+</blockquote>
+]]></content>
+    
+    
+      <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Web Design]]></title>
+    <link href="http://widatama.github.io/on-web-design/"/>
+    <id>http://widatama.github.io/on-web-design/</id>
+    <published>2013-02-19T18:13:41.000Z</published>
+    <updated>2014-01-08T15:44:47.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p><a href="http://nesoupfactorysalem.com/soups-of-the-day/" target="_blank">This is my favorite website</a>. I visit it almost every day. It&#8217;s not responsive. It&#8217;s not optimized for iPhone. It looks blurry on a Retina display. It doesn&#8217;t use the latest HTML5/CSS3 framework. It doesn&#8217;t have a thoughtful vertical rhythm. The fonts are nothing special. It is neither skeumorphic nor flat. It doesn&#8217;t have its own favicon. It doesn&#8217;t have a native app or Twitter or Instagram. It doesn&#8217;t use AJAX or SCRUM or node.js or Sinatra. It doesn&#8217;t have an API or an RSS feed or VC funding. It hasn&#8217;t been featured on a prominent tech blog or won an award.</p>
+<p>It tells me the soups of the day.</p>
+<p>Freely distributed information that&#8217;s relevant to the person reading it. That&#8217;s web design.</p>
+</blockquote>
+<div class="source"><a href="http://simplebits.com/notebook/2013/02/16/food-for-thought/" target="_blank">Food for Thought</a> <em>by</em> Dan Cederholm</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Being Responsive]]></title>
+    <link href="http://widatama.github.io/being-responsive/"/>
+    <id>http://widatama.github.io/being-responsive/</id>
+    <published>2013-01-03T08:59:37.000Z</published>
+    <updated>2014-01-05T15:57:19.000Z</updated>
+    <content type="html"><![CDATA[<p>I have modified this site a little. A small step towards truly formless content. Resize the browser window or get here through a decent mobile device browser (not you blackberry!) to see it in action.</p>
+]]></content>
+    
+    
+      <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Peppertones]]></title>
+    <link href="http://widatama.github.io/peppertones/"/>
+    <id>http://widatama.github.io/peppertones/</id>
+    <published>2012-12-31T04:06:53.000Z</published>
+    <updated>2014-01-18T23:25:43.000Z</updated>
+    <content type="html"><![CDATA[<div class="excerpt"><p>Peppertones (Hangul: 페퍼톤스), is a Korean electronic/house duo. I don&#8217;t usually listen to Korean music but this one is hard to resist. At first I only listen to their English songs because I do not understand Korean, but then I tried listening to some of the Korean songs and I am hooked. I can listen to their fun and catchy tunes all day long at work, err while working that is.</p>
+<p>Here are some of my favourites</p>
+<iframe width="864" height="468" src="//www.youtube.com/embed/rqKzwsfeTJI" frameborder="0" allowfullscreen></iframe>
+
+</div><!-- excerpt -->
+
+<iframe src="http://www.youtube.com/embed/Q2wJw-7Silk" width="864" height="468" frameborder="0" allowfullscreen></iframe>]]></content>
+    <summary type="html"><![CDATA[<p>Peppertones (Hangul: 페퍼톤스), is a Korean electronic/house duo. I don&#8217;t usually listen to Korean music but this one is hard to resist. At first I only listen to their English songs because I do not understand Korean, but then I tried listening to some of the Korean songs and I am hooked. I can listen to their fun and catchy tunes all day long at work, err while working that is.</p>
+<p>Here are some of my favourites</p>
+<iframe width="864" height="468" src="//www.youtube.com/embed/rqKzwsfeTJI" frameborder="0" allowfullscreen></iframe>
+
+]]></summary>
+    
+      <category term="Music" scheme="http://widatama.github.io/categories/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On The Time You’ll Remember]]></title>
+    <link href="http://widatama.github.io/on-the-time-you-ll-remember/"/>
+    <id>http://widatama.github.io/on-the-time-you-ll-remember/</id>
+    <published>2012-11-27T07:04:19.000Z</published>
+    <updated>2014-01-18T07:44:20.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Because in the end, you won&#8217;t remember the time you spent working in the office or mowing your lawn. <br/>Climb that goddamn mountain.</p>
+</blockquote>
+<div class="source">Jack Kerouac, author</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Banda Neira]]></title>
+    <link href="http://widatama.github.io/banda-neira/"/>
+    <id>http://widatama.github.io/banda-neira/</id>
+    <published>2012-11-11T16:18:13.000Z</published>
+    <updated>2014-01-19T00:06:11.000Z</updated>
+    <content type="html"><![CDATA[<p>I found Banda Neira on a random browsing session not so long ago and they instantly become one of my favourite. Though they said that their songs are mostly sad, they are surprisingly good and highly enjoyable. Here is one of their latest live show.</p>
+<p><iframe src="http://player.vimeo.com/video/52933791?badge=0&amp;color=aaaaaa" frameborder="0" width="864" height="468" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><p class="caption"><a href="http://vimeo.com/52933791" target="_blank">‘Di Paruh Waktu show’ Banda Neira - Tanpa Cerita</a> from <a href="http://vimeo.com/user14521423" target="_blank">Joeroe Rekam</a>.</p></p>
+<p>Find more of them <a href="http://www.soundcloud.com/bandaneira" target="_blank">here</a>.</p>
+]]></content>
+    
+    
+      <category term="Music" scheme="http://widatama.github.io/categories/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Sincerity]]></title>
+    <link href="http://widatama.github.io/on-sincerity/"/>
+    <id>http://widatama.github.io/on-sincerity/</id>
+    <published>2012-10-29T18:43:12.000Z</published>
+    <updated>2014-01-18T07:43:59.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>My brother, if you desire the path of sincerity, flee from the clatter and clinks of fame, and flee from the clamour that comes with being a celebrity. Be like the roots of a tree; it keeps the tree upright and gives it life, but it itself is hidden underneath the earth and eyes cannot see it. Or be like the foundations of a building; were it not for the foundation, no wall could be erected and no house could be established, but yet no&ndash;one sees the foundation.</p>
+</blockquote>
+<div class="source">Al&ndash;Niyyah wal&ndash;Ikhlas <em>by</em> Dr. al&ndash;Qaradlawi</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Travelling]]></title>
+    <link href="http://widatama.github.io/on-travelling/"/>
+    <id>http://widatama.github.io/on-travelling/</id>
+    <published>2012-09-24T23:22:56.000Z</published>
+    <updated>2014-01-18T07:44:33.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>The intelligent and refined find no rest in dwelling in one place, so leave your homeland and travel far away! Travel and you will meet new people replacing those left behind, and tire yourself out, because it makes life worth living.</p>
+<p>I have seen that water stagnates when it stands still, yet when in runs, it is sweet and pure. And if the lion left not its land, it would not catch its prey, and if the arrow left not the bow, it would not hit its aim, and if the sun moved not across the horizon, people all over the world would have gotten tired of the sky.</p>
+</blockquote>
+<div class="source">Imam al&ndash;Shafi&#8217;i</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[After Three Years]]></title>
+    <link href="http://widatama.github.io/after-three-years/"/>
+    <id>http://widatama.github.io/after-three-years/</id>
+    <published>2012-09-10T17:59:13.000Z</published>
+    <updated>2014-01-05T16:13:25.000Z</updated>
+    <content type="html"><![CDATA[<div class="figure"><br>  <img src="https://dl.dropbox.com/s/qcsjg5jpq7gkddw/DSC00159.jpg" alt="DSC00159" title="JST" width="940"><br>  <figcaption><p>Bestest friends I ever have</p></figcaption><br></div>]]></content>
+    
+    
+      <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Wholeness]]></title>
+    <link href="http://widatama.github.io/on-wholeness/"/>
+    <id>http://widatama.github.io/on-wholeness/</id>
+    <published>2012-07-08T18:44:58.000Z</published>
+    <updated>2014-01-18T07:44:40.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>I actually attack the concept of happiness. The idea that&mdash;I don&#8217;t mind people being happy&mdash;but the idea that everything we do is part of the pursuit of happiness seems to me a really dangerous idea and has led to a contemporary disease in Western society, which is fear of sadness. It&#8217;s a really odd thing that we&#8217;re now seeing people saying &#8220;write down 3 things that made you happy today before you go to sleep&#8221;, and &#8220;cheer up&#8221; and &#8220;happiness is our birthright&#8221; and so on. We&#8217;re kind of teaching our kids that happiness is the default position&mdash;it&#8217;s rubbish. Wholeness is what we ought to be striving for and part of that is sadness, disappointment, frustration, failure; all of those things which make us who we are. Happiness and victory and fulfillment are nice little things that also happen to us, but they don&#8217;t teach us much. Everyone says we grow through pain and then as soon as they experience pain they say &#8220;Quick! Move on! Cheer up!&#8221; I&#8217;d like just for a year to have a moratorium on the word &#8220;happiness&#8221; and to replace it with the word &#8220;wholeness&#8221;. <br/>Ask yourself &#8220;is this contributing to my wholeness?&#8221; and if you&#8217;re having a bad day, it is.</p>
+</blockquote>
+<div class="source">Hugh Mackay, psychologist</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On The Life of The Spirits]]></title>
+    <link href="http://widatama.github.io/on-the-life-of-the-spirits/"/>
+    <id>http://widatama.github.io/on-the-life-of-the-spirits/</id>
+    <published>2011-11-25T06:51:12.000Z</published>
+    <updated>2014-01-18T07:44:07.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>I wish I could make you see how much fuller the life I offer you is than anything you have a conception of. I wish I could make you see how exciting the life of the spirit is and how rich in experience. It&#8217;s illimitable. It&#8217;s such a happy life. There&#8217;s only one thing like it, when you&#8217;re up in a plane by yourself, high, high, and only infinity surrounds you. You&#8217;re intoxicated by the boundless space.</p>
+</blockquote>
+<div class="source">The Razor&#8217;s Edge <em>by</em> William Somerset Maugham</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Timelessness]]></title>
+    <link href="http://widatama.github.io/on-timelessness/"/>
+    <id>http://widatama.github.io/on-timelessness/</id>
+    <published>2011-11-15T12:00:00.000Z</published>
+    <updated>2014-01-18T07:44:27.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Choose things that are timeless. You don&#8217;t have to spend a lot of money. There are folding chairs that cost $10 to $15 that are great design, just as there are chairs that cost thousands that are junk.</p>
+<p>Our favorite cups are plain white Wedgwood ones designed long ago. Five hundred years from now, they will still be beautiful. And they didn&#8217;t mess it up with decoration. There was no need to.</p>
+<p>You can reach timelessness if you look for the essence of things and not the appearance. The appearance is transitory&mdash;the appearance is fashion, the appearance is trendiness&mdash;but the essence is timeless.</p>
+</blockquote>
+<div class="source">Massimo Vignelli, designer. Via <a href="http://vignellidesign.tumblr.com/post/5506381479/timelessness" target="_blank">Vignelli Design</a></div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Freethinkers]]></title>
+    <link href="http://widatama.github.io/on-freethinkers/"/>
+    <id>http://widatama.github.io/on-freethinkers/</id>
+    <published>2011-11-07T04:49:10.000Z</published>
+    <updated>2014-01-18T07:43:37.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Freethinkers are those who are willing to use their minds without prejudice and without fearing to understand things that clash with their own customs, privileges, or beliefs.</p>
+</blockquote>
+<div class="source">Leo Tolstoy, author</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[On Faith]]></title>
+    <link href="http://widatama.github.io/on-faith/"/>
+    <id>http://widatama.github.io/on-faith/</id>
+    <published>2011-09-02T04:38:31.000Z</published>
+    <updated>2014-01-18T07:43:33.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Belief isn&#8217;t simply a thing for fair times and bright days, I think. What is belief&hellip; what is faith&hellip; if you don&#8217;t continue in it after failure? </p>
+<p>Anyone can believe in someone, or something, that always succeeds, Mistress. But failure&hellip; ah, now, that is hard to believe in, certainly and truly. Difficult enough to have value, I think.</p>
+<p>&hellip;</p>
+<p>Sometimes we just have to wait long enough, Mistress. Then we find out why exactly it was that we kept believing. There&#8217;s always another secret.</p>
+</blockquote>
+<div class="source">Mistborn: The Final Empire <em>by</em> Brandon Sanderson</div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
+  
+</feed>
