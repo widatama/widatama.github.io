@@ -1,0 +1,50 @@
+<h1>Echo <a href="https://travis-ci.org/toddmotto/echo"><img src="https://travis-ci.org/toddmotto/echo.png" alt="Build Status"></a></h1>
+<p>Echo is a standalone JavaScript lazy-loading image tool. Echo is fast, less than 1KB and uses HTML5 data-* attributes. Check out a <a href="http://toddmotto.com/labs/echo">demo</a>. Echo works in IE8+.</p>
+<pre><code><span class="title">bower</span> install echojs</code></pre>
+<p>Using Echo.js is simple, just add the image you wish to load to a <code>data-echo</code>  attribute.</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">body</span>&gt;</span>
+
+  <span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"img/blank.gif"</span> <span class="attribute">alt</span>=<span class="value">"Photo"</span> <span class="attribute">data-echo</span>=<span class="value">"img/photo.jpg"</span>&gt;</span>
+
+  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"dist/echo.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+  <span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript">
+  Echo.init({
+    offset: <span class="number">100</span>,
+    throttle: <span class="number">250</span>
+  });
+
+  <span class="comment">// Echo.render(); is also available for non-scroll callbacks</span>
+  </span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">body</span>&gt;</span></code></pre>
+<h2>.init() API (options)</h2>
+<p>The <code>init()</code> API takes a few options</p>
+<h4>offset</h4>
+<p>Type: <code>Number|String</code> Default: <code>0</code></p>
+<p>The <code>offset</code> option allows you to specify how far below the viewport you want Echo to <em>begin</em> loading your images. If you specify <code>0</code>, Echo will load your image as soon as it is visible in the viewport, if you want to load <em>1000px</em> below the viewport, use <code>1000</code>.</p>
+<h4>throttle</h4>
+<p>Type: <code>Number|String</code> Default: <code>250</code></p>
+<p>The throttle is managed by an internal function that prevents performance issues from continuous firing of <code>window.onscroll</code> events. Using a throttle will set a small timeout when the user scrolls and will keep throttling until the user stops. The default is <code>250</code> milliseconds.</p>
+<h2>.render() API</h2>
+<p>Echo&#39;s callback <code>render()</code> can be used to make Echo poll your images when you‘re not scrolling, for instance if you’ve got a filter layout that swaps images but does not scroll, you need to call the internal functions without scrolling. Use <code>render()</code> for this:</p>
+<pre><code class="lang-js">Echo.render();</code></pre>
+<p>Using <code>render()</code> is also throttled, which means you can bind it to a <code>window.onresize</code> event and it will be optimised for performance in the same way <code>window.onscroll</code> is.</p>
+<h2>Manual installation</h2>
+<p>Drop your files into your required folders, make sure you&#39;re using the file(s) from the <code>dist</code> folder, which is the compiled production-ready code. Ensure you place the script before the closing <code>&lt;/body&gt;</code> tag so the DOM tree is populated when the script runs.</p>
+<h2>Configuring Echo</h2>
+<p>Add the image that needs to load when it&#39;s visible inside the viewport in a <code>data-echo</code> attribute:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">"img/blank.gif"</span> <span class="attribute">alt</span>=<span class="value">"Photo"</span> <span class="attribute">data-echo</span>=<span class="value">"img/photo.jpg"</span>&gt;</span></code></pre>
+<h2>Scaffolding</h2>
+<p>Project files and folder structure.</p>
+<pre><code>├── dist/
+│   ├── echo<span class="variable">.js</span>
+│   └── echo<span class="variable">.min</span><span class="variable">.js</span>
+├── src/
+│   └── echo<span class="variable">.js</span>
+├── <span class="variable">.editorconfig</span>
+├── <span class="variable">.gitignore</span>
+├── <span class="variable">.jshintrc</span>
+├── <span class="variable">.travis</span><span class="variable">.yml</span>
+├── Gruntfile<span class="variable">.js</span>
+└── package<span class="variable">.json</span></code></pre>
+<h2>License</h2>
+<p>MIT license</p>
