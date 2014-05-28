@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Journal • Thoughts • Favourites]]></subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://widatama.github.io/"/>
-  <updated>2014-05-09T02:11:44.746Z</updated>
+  <updated>2014-05-28T01:08:10.154Z</updated>
   <id>http://widatama.github.io/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Tribute to Vignelli]]></title>
+    <link href="http://widatama.github.io/tribute-to-vignelli/"/>
+    <id>http://widatama.github.io/tribute-to-vignelli/</id>
+    <published>2014-05-28T00:59:51.000Z</published>
+    <updated>2014-05-28T01:04:24.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p><span class="scream">In a world where everybody screams</span>, <span class="silence">silence</span> <span class="scream">is noticeable.</span></p>
+</blockquote>
+<div class="source"><a href="http://observatory.designobserver.com/feature/massimo-vignelli-1931-2014/38336/" target="_blank">Massimo Vignelli, 1931&ndash;2014</a></div>]]></content>
+    
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[On The Caring Ones]]></title>
@@ -323,22 +339,6 @@
     
     
       <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[On Wholeness]]></title>
-    <link href="http://widatama.github.io/on-wholeness/"/>
-    <id>http://widatama.github.io/on-wholeness/</id>
-    <published>2012-07-08T18:44:58.000Z</published>
-    <updated>2014-01-22T00:58:38.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>I actually attack the concept of happiness. The idea that&mdash;I don&#8217;t mind people being happy&mdash;but the idea that everything we do is part of the pursuit of happiness seems to me a really dangerous idea and has led to a contemporary disease in Western society, which is fear of sadness. It&#8217;s a really odd thing that we&#8217;re now seeing people saying &#8220;write down 3 things that made you happy today before you go to sleep&#8221;, and &#8220;cheer up&#8221; and &#8220;happiness is our birthright&#8221; and so on. We&#8217;re kind of teaching our kids that happiness is the default position&mdash;it&#8217;s rubbish. Wholeness is what we ought to be striving for and part of that is sadness, disappointment, frustration, failure; all of those things which make us who we are. Happiness and victory and fulfillment are nice little things that also happen to us, but they don&#8217;t teach us much. Everyone says we grow through pain and then as soon as they experience pain they say &#8220;Quick! Move on! Cheer up!&#8221; I&#8217;d like just for a year to have a moratorium on the word &#8220;happiness&#8221; and to replace it with the word &#8220;wholeness&#8221;. <br/>Ask yourself &#8220;is this contributing to my wholeness?&#8221; and if you&#8217;re having a bad day, it is.</p>
-</blockquote>
-<div class="source">Hugh Mackay, psychologist</div>]]></content>
-    
-    
-      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
     
   </entry>
   
