@@ -182,23 +182,17 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #0099ff;
+  color: #007acc;
 }
 p a,
 p a:visited {
   line-height: inherit;
 }
 article a {
-  color: #0099ff;
+  color: #777777;
 }
 article a:hover {
-  color: #555555;
-}
-article .meta a {
-  color: #555555;
-}
-article .meta a:hover {
-  color: #0099ff;
+  color: #007acc;
 }
 /*
 
@@ -502,8 +496,8 @@ hr {
 .third {
   display: block;
   float: left;
-  margin-right: 8%;
-  width: 28%;
+  margin-right: 5%;
+  width: 30%;
 }
 .third:last-child {
   margin-right: 0;
@@ -511,8 +505,8 @@ hr {
 .two-third {
   display: block;
   float: left;
-  margin-right: 8%;
-  width: 64%;
+  margin-right: 5%;
+  width: 65%;
 }
 .two-third:last-child {
   margin-right: 0;
@@ -560,8 +554,15 @@ hr {
 #trunk article {
   padding: 0 4%;
 }
-#trunk article p {
-  max-width: 40em;
+.projects,
+.project {
+  padding: 0 4%;
+}
+.project-summary .meta {
+  margin-top: 0.75em;
+}
+.project .meta {
+  padding-top: 3em;
 }
 article h2 {
   margin-top: 2em;
@@ -571,7 +572,8 @@ article h3 {
   margin-top: 1.8em;
   margin-bottom: 0.6em;
 }
-.resume-entry {
+.resume-entry,
+.entry {
   margin-bottom: 3em;
   overflow: auto;
   width: 70%;
@@ -581,11 +583,29 @@ article h3 {
     margin-right: 0;
     width: 100%;
   }
+  .entry {
+    margin-right: 0;
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 960px) {
-  .resume-entry {
+  .resume-entry,
+  .entry {
     margin-right: 0;
     width: 100%;
+  }
+  .project-summary .meta {
+    float: right;
+    margin-top: -1.5em;
+    margin-bottom: 1.5em;
+  }
+  .project .meta {
+    padding-top: 0;
+    text-align: right !important;
+    width: auto;
+    float: right;
+    top: 1.5em;
+    position: relative;
   }
 }
 .period {
@@ -593,12 +613,6 @@ article h3 {
   float: right;
   top: -2.65em;
 }
-/*
-
-
-  |Media Queries
-
-*/
 /* Hemisu Light */
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 /* Original theme - http://noahfrederick.com/vim-color-scheme-hemisu/ */
