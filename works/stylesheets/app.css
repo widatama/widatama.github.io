@@ -176,6 +176,7 @@ a:visited {
   -moz-transition: color 0.2s ease-in;
   -o-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 a:visited {
   color: #444444;
@@ -615,6 +616,27 @@ article h3 {
   position: relative;
   float: right;
   top: -2.65em;
+}
+#project-pagination {
+  padding: 0 4%;
+  overflow: auto;
+  margin-top: -3em;
+}
+#project-pagination a {
+  display: block;
+  top: 45%;
+  font-size: 1em;
+  font-weight: 400;
+  color: #777777;
+}
+#project-pagination a:hover {
+  color: #007acc;
+}
+#project-pagination .next {
+  float: right;
+}
+#project-pagination .prev {
+  float: left;
 }
 /* Hemisu Light */
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */

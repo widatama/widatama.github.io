@@ -1,6 +1,338 @@
 /*
 
 
+  |Colours
+
+*/
+/*
+
+
+  |Breakpoints
+
+*/
+/*
+
+
+	|Reset
+
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+
+
+  |Basic
+
+*/
+body {
+  font-size: 125%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #444444;
+}
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: 100%;
+  }
+}
+/*
+
+
+  |Headings
+
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 0 0 1.5em;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.6em 0 0.4em;
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin: 1em 0 0.2em;
+}
+h4 {
+  font-weight: 600;
+}
+/*
+
+
+  |Paragraphs
+
+*/
+p,
+address {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+p img {
+  margin: 0;
+}
+/*
+
+
+  |Emphasis
+
+*/
+cite,
+dfn,
+em,
+i {
+  font-style: italic;
+}
+b,
+strong,
+dt,
+legend {
+  font-weight: bold;
+}
+small {
+  font-size: 0.75em;
+}
+del {
+  text-decoration: line-through;
+}
+ins {
+  color: #f00;
+}
+/*
+
+
+  |Form
+
+*/
+form,
+legend,
+label {
+  font-size: 1em;
+}
+/*
+
+
+  |Table
+
+*/
+table caption,
+tfoot {
+  font-size: 0.75em;
+  line-height: 2;
+}
+thead {
+  font-weight: bold;
+}
+/*
+
+
+  |Code
+
+*/
+code,
+kbd,
+samp,
+pre,
+tt,
+var {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+}
+pre {
+  font-size: 0.75em;
+  margin-bottom: 1.5em;
+  overflow: auto;
+}
+p + pre {
+  margin-top: -1.5em;
+}
+/*
+
+
+  |Quote
+
+*/
+blockquote {
+  padding-left: 1.5em;
+  position: relative;
+  border-left: dotted 0.075em #ffffff;
+  color: #555555;
+}
+blockquote p {
+  font-size: 1em;
+  position: relative;
+}
+q:before {
+  content: "“";
+}
+q:after {
+  content: "”";
+}
+/*
+
+
+  |Others
+
+*/
+abbr,
+acronym {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+abbr[title],
+acronym[title],
+dfn[title] {
+  border-bottom: 0.075em dotted #ffffff;
+  cursor: help;
+}
+hr {
+  border: none;
+  border-top: dotted 0.075em #ffffff;
+  height: 1.5em;
+}
+/*
+
+
   |Print styles.
   Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
@@ -20,17 +352,6 @@
   a,
   a:visited {
     text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
   }
   /* Don't show links for images, or javascript/internal links */
   pre,
@@ -74,4 +395,47 @@
   .show-for-print {
     display: inherit !important;
   }
+}
+.resume-entry {
+  margin-bottom: 3em;
+}
+.resume-entry .period {
+  float: right;
+  display: block;
+  margin-top: -1.5em;
+}
+ul,
+ol,
+dl {
+  margin-bottom: 1.5em;
+}
+ol {
+  list-style: decimal;
+}
+ol.no-bullet {
+  list-style: none;
+}
+ul {
+  list-style: disc;
+}
+ul.no-bullet {
+  list-style: none;
+}
+li ul,
+li ol,
+ul ul,
+ol ol {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+li h1,
+li h2,
+li h3,
+li h4,
+li h5,
+li h6,
+li p {
+  margin-top: 0;
 }
