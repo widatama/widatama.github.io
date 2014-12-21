@@ -146,16 +146,11 @@ table {
 
 */
 body {
-  font-size: 125%;
+  font-size: 100%;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   color: #444444;
-}
-@media only screen and (max-width: 960px) {
-  body {
-    font-size: 100%;
-  }
 }
 /*
 
@@ -336,6 +331,9 @@ hr {
   |Print styles.
   Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
+#page {
+  padding: 0 4.5em;
+}
 .print-only {
   display: none !important;
 }
@@ -371,7 +369,7 @@ hr {
     max-width: 100% !important;
   }
   @page {
-    margin: 0.5cm;
+    margin: 1cm 0.5cm;
   }
   p,
   h2,
@@ -396,13 +394,16 @@ hr {
     display: inherit !important;
   }
 }
+.break-after {
+  page-break-after: always;
+}
 .resume-entry {
   margin-bottom: 3em;
 }
 .resume-entry .period {
   float: right;
   display: block;
-  margin-top: -1.5em;
+  margin-top: -2em;
 }
 ul,
 ol,
@@ -438,4 +439,16 @@ li h5,
 li h6,
 li p {
   margin-top: 0;
+}
+.remove-top {
+  margin-top: 0 !important;
+}
+.remove-bottom {
+  margin-bottom: 0 !important;
+}
+.half-bottom {
+  margin-bottom: 0.75em !important;
+}
+.add-bottom {
+  margin-bottom: 1.5em !important;
 }
