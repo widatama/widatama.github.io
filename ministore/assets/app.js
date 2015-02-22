@@ -9222,6 +9222,8 @@ renderProductPopup = function(content) {
   $("body").prepend($overlay);
   $("body").prepend($popup);
 
+  $(document).scrollTop(0);
+
   $overlay.click(function(event) {
     $popup.remove();
     $overlay.remove();
