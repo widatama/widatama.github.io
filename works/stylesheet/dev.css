@@ -1,0 +1,61 @@
+/*
+
+  Development helper stylesheets
+*/
+/*
+
+  Colours
+*/
+/*
+
+  Typography
+*/
+/*
+
+  Breakpoints
+*/
+/**
+ * Grid
+ */
+#hashgrid {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.hashgrid-column-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/**
+ * Vertical grid lines
+ *
+ * Set the column width taking the borders into consideration,
+ * and use margins to set column gutters.
+ */
+.hashgrid__column {
+  float: left;
+  width: 100px;
+  height: 100%;
+  margin-left: 0;
+  border: solid darkturquoise;
+  border-width: 0 1px;
+  border-left: none;
+}
+/**
+ * Horizontal grid lines, defined by your base line height
+ *
+ * Remember, the CSS properties that define the box model:
+ * visible height = height + borders + margins + padding
+ */
+.hashgrid__row {
+  /* 20px line height */
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted darkgray;
+}

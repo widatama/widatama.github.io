@@ -1,0 +1,270 @@
+/*
+
+  Colours
+*/
+/*
+
+  Typography
+*/
+/*
+
+  Breakpoints
+*/
+/*
+
+  Print styles
+  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
+ */
+.site-page {
+  padding: 0 4.5em;
+}
+.print-only {
+  display: none !important;
+}
+* {
+  background: transparent !important;
+  color: #333333 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -webkit-filter: none !important;
+          filter: none !important;
+  -ms-filter: none !important;
+}
+/* Black prints faster: h5bp.com/s */
+a,
+a:visited {
+  text-decoration: underline;
+  color: #333333;
+}
+/* h5bp.com/t */
+img {
+  page-break-inside: avoid;
+  max-width: 100% !important;
+}
+@page {
+  margin: 1cm .5cm;
+}
+p,
+h2,
+h3 {
+  orphans: 3;
+  widows: 3;
+}
+h2,
+h3 {
+  page-break-after: avoid;
+}
+.hide-on-print {
+  display: none !important;
+}
+.print-only {
+  display: block !important;
+}
+.hide-for-print {
+  display: none !important;
+}
+.show-for-print {
+  display: inherit !important;
+}
+.break-after {
+  page-break-after: always;
+}
+.project-summary {
+  margin-bottom: 3em;
+}
+.meta.meta--inside {
+  font-size: .75em;
+  line-height: 2;
+  display: block;
+  float: right;
+  margin-top: -4em;
+}
+ul,
+ol,
+dl {
+  margin: 0;
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+ol {
+  list-style: decimal;
+}
+ol.no-bullet {
+  list-style: none;
+}
+ul {
+  list-style: disc;
+}
+ul.no-bullet {
+  list-style: none;
+}
+li ul,
+li ol,
+ul ul,
+ol ol {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+li h1,
+li h2,
+li h3,
+li h4,
+li h5,
+li h6,
+li p {
+  margin-top: 0;
+}
+dd {
+  margin-left: 0;
+}
+/*
+
+  Helper
+*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.is-hidden {
+  display: none;
+}
+.remove-top {
+  margin-top: 0 !important;
+}
+.remove-bottom {
+  margin-bottom: 0 !important;
+}
+.half-top {
+  margin-top: .75em !important;
+}
+.add-top {
+  margin-top: 1.5em !important;
+}
+.half-bottom {
+  margin-bottom: .75em !important;
+}
+.add-bottom {
+  margin-bottom: 1.5em !important;
+}
+.third {
+  width: 100%;
+}
+.two-third {
+  width: 100%;
+}
+/*
+
+  Base
+*/
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+/*
+
+  Headings
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 3;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1;
+  margin: 1em 0;
+}
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 2.4em 0 1.2em;
+}
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+/*
+
+  Paragraphs
+*/
+p,
+address {
+  font-size: 1em;
+  margin: 0 0 1.5em;
+}
+p img {
+  margin: 0;
+}
+/*
+
+  Emphasis
+*/
+cite,
+dfn,
+em,
+i {
+  font-style: italic;
+}
+b,
+strong,
+dt,
+legend {
+  font-weight: bold;
+}
+small {
+  font-size: .75em;
+  line-height: 1;
+}
+del {
+  text-decoration: line-through;
+}
+ins {
+  color: #FF0000;
+}
+/*
+
+  Others
+*/
+abbr,
+acronym {
+  letter-spacing: .075em;
+  text-transform: uppercase;
+  border: none !important;
+  text-decoration: none !important;
+}
