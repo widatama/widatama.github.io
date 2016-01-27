@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Journal • Thoughts • Favourites]]></subtitle>
   <link href="/journal/atom.xml" rel="self"/>
   <link href="http://widatama.github.io/"/>
-  <updated>2015-12-19T15:32:03.000Z</updated>
+  <updated>2016-01-27T02:10:44.000Z</updated>
   <id>http://widatama.github.io/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[On Social Network]]></title>
+    <link href="http://widatama.github.io/on-social-network/"/>
+    <id>http://widatama.github.io/on-social-network/</id>
+    <published>2016-01-26T07:01:12.000Z</published>
+    <updated>2016-01-27T02:10:44.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>The question of identity has changed from being something you are born with to a task: you have to create your own community. But communities aren’t created, and you either have one or you don’t. What the social networks can create is a substitute. The difference between a community and a network is that you belong to a community, but a network belongs to you. You feel in control. You can add friends if you wish, you can delete them if you wish. You are in control of the important people to whom you relate. People feel a little better as a result, because loneliness, abandonment, is the great fear in our individualist age. But it’s so easy to add or remove friends on the internet that people fail to learn the real social skills, which you need when you go to the street, when you go to your workplace, where you find lots of people who you need to enter into sensible interaction with. Pope Francis, who is a great man, gave his first interview after being elected to Eugenio Scalfari, an Italian journalist who is also a self-proclaimed atheist. It was a sign: real dialogue isn’t about talking to people who believe the same things as you. Social media don’t teach us to dialogue because it is so easy to avoid controversy… But most people use social media not to unite, not to open their horizons wider, but on the contrary, to cut themselves a comfort zone where the only sounds they hear are the echoes of their own voice, where the only things they see are the reflections of their own face. Social media are very useful, they provide pleasure, but they are a trap.</p>
+</blockquote>
+<div class="source"><a href="http://elpais.com/elpais/2016/01/19/inenglish/1453208692_424660.html" target="_blank" rel="external">Zygmunt Bauman</a>, Sociologist</div>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>The question of identity has changed from being something you are born with to a task: you have to create your own community]]>
+    </summary>
+    
+      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[On Materialism]]></title>
@@ -186,25 +206,6 @@
     </summary>
     
       <category term="Writing" scheme="http://widatama.github.io/categories/Writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[On Making Sense of Things]]></title>
-    <link href="http://widatama.github.io/on-making-sense-of-things/"/>
-    <id>http://widatama.github.io/on-making-sense-of-things/</id>
-    <published>2013-09-13T18:09:41.000Z</published>
-    <updated>2015-05-08T08:38:07.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>People don&#8217;t want things to make sense, although they always say they do. Know why? Because if things made sense we&#8217;d all be in trouble. You drive too fast down the street because it feels good or because you&#8217;re in a hurry. Now if things made sense, a cop would stop you every single time and give you a ticket. Now what happens if a cop &#8216;does&#8217; stop you? You get angry and say that&#8217;s not fair! Of course it&#8217;s fair. It also makes sense. But if life made sense we&#8217;d either behave ourselves a hell of a lot better or we&#8217;d be walking around scared, waiting to be punished for all the bad things we do every day. We want life to make sense only when it&#8217;s to our &#8216;advantage.&#8217; Otherwise, it&#8217;s interesting not knowing what&#8217;s coming next. Maybe you&#8217;ll get heads, maybe tails. People do wrong things all the time and get away with them. Good people get their necks broken. Would you prefer it if only the good people got rewarded? How often are you good? How often do you deserve the good <em>you</em> get? Wouldn&#8217;t you rather have an interesting life than a fair one?</p>
-</blockquote>
-<div class="source"><a href="http://www.jonathancarroll.com/index.php" target="_blank" rel="external">Jonathan Carroll</a>, author</div>]]></content>
-    <summary type="html">
-    <![CDATA[<blockquote>
-<p>People don&#8217;t want things to make sense, although they always say they do. Know why? Because if things made sense we&#8]]>
-    </summary>
-    
-      <category term="Words" scheme="http://widatama.github.io/categories/Words/"/>
     
   </entry>
   
