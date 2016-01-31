@@ -879,7 +879,7 @@ pre .html .tag .title {
   |Footer
 */
 .page-footer {
-  margin-top: 4.8em;
+  margin-top: 3.2em;
   margin-bottom: 4.8em;
 }
 .footer__container {
@@ -913,6 +913,8 @@ pre .html .tag .title {
   float: left;
   width: 12.5%;
   list-style-type: none;
+  margin-top: 0.32em;
+  margin-bottom: 1.28em;
 }
 @media only screen and (min-width: 561px) and (max-width: 1300px) {
   .footer__nav-item {
@@ -994,11 +996,6 @@ pre .html .tag .title {
   margin-top: 1.6em;
   margin-bottom: 0em;
 }
-.post__see-full {
-  font-family: "Crimson Text", Palatino, "Times New Roman", serif;
-  font-size: 0.8em;
-  line-height: 2;
-}
 .post__title--compact {
   margin: 0;
   font-size: 1.25em;
@@ -1059,7 +1056,7 @@ pre .html .tag .title {
   font-size: 1.6em;
   line-height: 1.5;
   margin-top: 0em;
-  margin-bottom: 1.6em;
+  margin-bottom: 2em;
 }
 .post__body--words blockquote {
   position: relative;
@@ -1146,8 +1143,8 @@ td.code {
   margin: 0 auto;
   width: 62%;
   max-width: 54rem;
-  font-size: 1.6em;
-  line-height: 1;
+  font-size: 1.8em;
+  line-height: 0.88888889;
 }
 @media only screen and (min-width: 561px) and (max-width: 1300px) {
   .post-list-pagination {
@@ -1167,8 +1164,8 @@ td.code {
 }
 .post-pagination {
   font-family: "Crimson Text", Palatino, "Times New Roman", serif;
-  font-size: 1.6em;
-  line-height: 1;
+  font-size: 2em;
+  line-height: 0.8;
   width: 62%;
   max-width: 54rem;
 }
@@ -1189,10 +1186,10 @@ td.code {
   top: 50%;
 }
 .post-pagination__link--prev {
-  left: .5em;
+  left: .25em;
 }
 .post-pagination__link--next {
-  right: .5em;
+  right: .25em;
 }
 @media only screen and (max-width: 1300px) {
   .post-pagination {
