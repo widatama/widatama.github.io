@@ -153,7 +153,6 @@ body {
 */
 a,
 a:visited {
-  -webkit-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
   text-decoration: none;
   color: #555555;
@@ -354,8 +353,9 @@ ins {
 */
 abbr,
 acronym {
-  letter-spacing: .075em;
+  letter-spacing: .05em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 abbr[title],
 acronym[title],
