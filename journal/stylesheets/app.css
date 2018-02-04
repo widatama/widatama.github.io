@@ -377,7 +377,7 @@ table {
 }
 /*
 
-	Basic
+  Basic
 */
 *,
 *:before,
@@ -390,11 +390,10 @@ body {
 }
 /*
 
-	Links
+  Links
 */
 a,
 a:visited {
-  -webkit-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
   text-decoration: none;
   color: #555555;
@@ -413,7 +412,7 @@ p a:visited {
 }
 /*
 
-	Lists
+  Lists
 */
 ul,
 ol,
@@ -448,7 +447,7 @@ li p {
 }
 /*
 
-	Images and iframes
+  Images and iframes
 */
 img {
   max-width: 100%;
@@ -461,7 +460,7 @@ iframe {
 }
 /*
 
-	Miscs
+  Miscs
 */
 ::-moz-selection {
   background: #333333;
@@ -565,7 +564,7 @@ embed {
 }
 /*
 
-	Base
+  Base
 */
 body {
   font-family: "Charter", Georgia, serif;
@@ -583,7 +582,7 @@ body {
 }
 /*
 
-	Headings
+  Headings
 */
 h1,
 h2,
@@ -627,7 +626,7 @@ h5 {
 }
 /*
 
-	Paragraphs
+  Paragraphs
 */
 p,
 address {
@@ -646,7 +645,7 @@ p:empty {
 }
 /*
 
-	Emphasis
+  Emphasis
 */
 cite,
 dfn,
@@ -802,7 +801,7 @@ pre .html .tag .title {
 }
 /*
 
-	Globals
+  Globals
 */
 .page-body {
   clear: both;
@@ -847,7 +846,6 @@ pre .html .tag .title {
   line-height: 1;
   float: left;
   margin-right: 1em;
-  -webkit-transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
   box-shadow: 0 2px 0 0 #555555;
 }
@@ -876,7 +874,7 @@ pre .html .tag .title {
 }
 /*
 
-  |Footer
+  Footer
 */
 .page-footer {
   margin-top: 3.2em;
@@ -885,7 +883,6 @@ pre .html .tag .title {
 .footer__container {
   overflow: auto;
   margin: 0 auto;
-  box-shadow: 0 -2px 0 0 #555555;
   width: 62%;
   max-width: 54rem;
 }
@@ -904,17 +901,15 @@ pre .html .tag .title {
 .footer__nav {
   float: left;
   width: 100%;
-  box-shadow: 0 -1px 0 0 #555555;
-  margin-top: 0.16em;
-  margin-bottom: 1.44em;
+  box-shadow: inset 0 1px 0 0 #555555;
 }
 .footer__nav-item {
   display: block;
   float: left;
   width: 12.5%;
   list-style-type: none;
-  margin-top: 0.32em;
-  margin-bottom: 1.28em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 @media only screen and (min-width: 561px) and (max-width: 1300px) {
   .footer__nav-item {
@@ -1143,8 +1138,8 @@ td.code {
   margin: 0 auto;
   width: 62%;
   max-width: 54rem;
-  font-size: 1.8em;
-  line-height: 0.88888889;
+  font-size: 1.6em;
+  line-height: 1;
 }
 @media only screen and (min-width: 561px) and (max-width: 1300px) {
   .post-list-pagination {
@@ -1164,8 +1159,8 @@ td.code {
 }
 .post-pagination {
   font-family: "Crimson Text", Palatino, "Times New Roman", serif;
-  font-size: 2em;
-  line-height: 0.8;
+  font-size: 1.6em;
+  line-height: 1;
   width: 62%;
   max-width: 54rem;
 }
